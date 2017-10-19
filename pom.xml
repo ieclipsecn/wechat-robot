@@ -45,6 +45,11 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+        	<groupId>cn.ieclipse</groupId>
+        	<artifactId>smartim</artifactId>
+        	<version>0.0.1</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -59,7 +64,7 @@
                 <filtering>false</filtering>
             </resource>
             <resource>
-                <directory>src/test</directory>
+                <directory>src/test/java</directory>
                 <filtering>false</filtering>
             </resource>
             <resource>
